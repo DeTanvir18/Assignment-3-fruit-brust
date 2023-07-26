@@ -161,7 +161,8 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden  absolute -bottom-72 left-96 bg-white rounded-lg shadow px-16 py-12">
+            <div
+                class="hidden lg:block max-w-[1200px] relative bottom-44 left-40 bg-white rounded-lg shadow px-16 py-12">
                 <div class="flex gap-20 justify-center">
                     <div class="text-xl font-medium text-center">
                         <img src="./images/fruit1.png" alt="">
@@ -209,48 +210,50 @@
         <!---------------------------------------------------------------
             meet the team starts here
             ----------------------------------------------------------------->
-        <section class="lg:mt-52 text-white rounded-lg">
+        <section class="my-32 text-white rounded-lg">
             <div class="hero" style="background-image: url(./images/team.png);">
                 <div class="hero-overlay bg-opacity-70"></div>
                 <div class="justify-center text-center mx-60 my-28">
                     <h2 class="text-5xl font-extrabold">Meet the team section</h2>
-                    <p class="font-medium mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="font-medium mt-6 mb-12">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-32">
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col items-center">
                             <img src="./images/member1.png" class="w-36" alt="">
                             <h3 class="text-2xl font-bold mt-8 mb-1">Awlad Hossain</h3>
                             <p class="font-medium mb-4">Fruits Expert</p>
-                            <div>
+                            <div class="flex gap-3">
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-facebook-f"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-twitter"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-linkedin-in"></i>
                             </div>
                         </div>
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col items-center">
                             <img src="./images/member2.png" class="w-36" alt="">
                             <h3 class="text-2xl font-bold mt-8 mb-1">Safia Chowdhury</h3>
                             <p class="font-medium mb-4">Fruits Expert</p>
-                            <div>
+                            <div class="flex gap-3">
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-facebook-f"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-twitter"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-linkedin-in"></i>
                             </div>
                         </div>
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col items-center">
                             <img src="./images/member3.png" class="w-36" alt="">
                             <h3 class="text-2xl font-bold mt-8 mb-1">Rokib Hossain</h3>
                             <p class="font-medium mb-4">Fruits Expert</p>
-                            <div>
+                            <div class="flex gap-3">
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-facebook-f"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-twitter"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-linkedin-in"></i>
                             </div>
                         </div>
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col items-center">
                             <img src="./images/member4.png" class="w-36" alt="">
                             <h3 class="text-2xl font-bold mt-8 mb-1">Chaity Chowdhury</h3>
                             <p class="font-medium mb-4">Fruits Expert</p>
-                            <div>
+                            <div class="flex gap-3">
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-facebook-f"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-twitter"></i>
                                 <i class="fa-brands text-xl w-6  bg-color-primary rounded-lg fa-linkedin-in"></i>
@@ -272,8 +275,29 @@
     <!---------------------------------------------------------------
         footer starts here
     ----------------------------------------------------------------->
-    <footer>
-
+    <footer class="footer footer-center py-9 lg:py-32 bg-black text-primary-content space-y-2">
+            <div class="navbar-center flex items-center">
+                <img src="./images/logo.png" alt="">
+                <h2 class="text-2xl md:text-[40px] font-bold text-white ms-4">Fruit Brust</h2>
+            </div>
+            <ul tabindex="0" class="grid grid-cols-3 lg:grid-cols-6 gap-2 lg:gap-7 text-xs md:text-base text-white md:font-semibold">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                <li><a>Support</a></li>
+                <li><a>My Account</a></li>
+            </ul>
+            <p class="text-sm md:text-xl font-medium">Copyright © 2023 - All right reserved</p>
+        
+            <div class="grid grid-cols-3 lg:grid-cols-6 gap-3 md:gap-10 text-5xl">
+                <button><i class="fa-brands fa-twitter"></i></button>
+                <button><i class="fa-brands fa-facebook"></i></button>
+                <button><i class="fa-brands fa-youtube text-red-600"></i></button>
+                <button><i class="fa-brands fa-linkedin-in"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+                <button><i class="fa-brands fa-apple"></i></button>
+            </div>
     </footer>
     <!---------------------------------------------------------------
         footer section ends here
